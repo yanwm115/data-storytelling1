@@ -241,8 +241,21 @@ elif choice == "Neomycin":
 - It's among the strongest overall in this dataset. """)
 else:
     st.markdown("""
-- **Penicillin** is effective mainly for **Gram-positive** bacteria.
-- **Streptomycin** and **Neomycin** offer **broader spectrum** coverage.
-- **Gram-negative species** tend to be more resistant overall.
-- Understanding **Gram stain type** helps guide antibiotic selection. """)
+- **Knowing whether bacteria are Gram-positive or Gram-negative is crucial for choosing the right antibiotic.** 
+                Doctors perform Gram-staining tests to identify the type of bacteria before prescribing any 
+                treatment. This approach increases the chances of successful treatment and reduces the risk of 
+                antibiotic resistance.
+- **Penicillin shows its great effectiveness against Gram-positive bacteria.** This is 
+                because the bacteria have thick cell walls that penicillin can easily target
+                and break down. Gram-negative baceria with their protective outer membrane are 
+                often able to resist penicillin's effects.
+- **Gram-negative bacterial types generally show resistance to many and more antibiotics.** Their 
+                double layered cell wall structure acts like an extra armor/protection, making it 
+                harder for antibiotics to penetrate and reach their targets. This is why infections 
+                caused by Gram-negative bacteria can be more challenging to treat.
+- **Both Streptomycin and Neomycin provide broader spectrum coverage compared to penicillin.** These 
+                antibiotics can attack both Gram-positive and Gram-negative bacteria by targeting their
+                protein functions. This makes them useful when doctors aren't sure what type of bacteria is 
+                causing an infection. 
+ """)
 
